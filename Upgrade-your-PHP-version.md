@@ -41,6 +41,11 @@ Note: Sometimes, php.ini settings may vary slightly between versions, so review 
                PHPIniDir "C:/xampp/php"
 
         4. Ensure that the path is pointing to the correct php folder (C:/xampp/php), and update it if necessary.
+
+        NOTE:
+
+          it is not compulsory to update the httpd-xampp.conf file when upgrading PHP in XAMPP, as long as your PHP folder is in its default location (C:\xampp\php).
+          If you have separatly installed php at other location you need to do so.
      
 6. Restart Apache Server
 
